@@ -1,0 +1,11 @@
+.container {
+  position: relative;
+}
+
+.text {
+  font-size: 2rem;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+}
