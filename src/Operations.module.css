@@ -4,7 +4,7 @@
 
 .label {
   background-color: #fff;
-  border: 1px solid #ccc;
+  border: 2px solid #ccc;
   border-radius: 0.25em;
   box-sizing: border-box;
   cursor: pointer;
@@ -22,7 +22,8 @@
 }
 
 .radio[type="radio"]:checked + label {
-  border: 2px solid blue;
+  background-color: #c91b9d;
+  border: 2px solid #8713b1;
 }
 
 .list {
