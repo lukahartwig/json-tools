@@ -5,9 +5,13 @@
 }
 
 .textarea {
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
   flex-grow: 1;
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
   height: 100%;
+  padding: 0.5rem;
   resize: none;
 }

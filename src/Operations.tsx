@@ -16,14 +16,15 @@ function Operations<T>(props: Props<T>) {
   const items = (
     <For each={props.options} fallback={<p>No operations...</p>}>
       {(op) => (
-        <li>
-          <label class={styles.label}>
-            <input
-              type="radio"
-              name="operation"
-              class={styles.radio}
-              onChange={() => props.onSelect(op.value)}
-            />
+        <li class={styles.item}>
+          <input
+            id={`operation-${op.value}`}
+            class={styles.radio}
+            type="radio"
+            name="operation"
+            onChange={() => props.onSelect(op.value)}
+          />
+          <label class={styles.label} for={`operation-${op.value}`}>
             {op.name}
           </label>
         </li>
